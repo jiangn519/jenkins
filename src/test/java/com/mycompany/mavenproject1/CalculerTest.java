@@ -50,4 +50,17 @@ public class CalculerTest {
         
     }
     
+    @org.junit.Test
+    public void testSomeMethod1() {
+        int expresult=15,resultat ;
+        Calculer c=new Calculer();
+        resultat=c.mul(5, 10);
+        assertEquals(expresult,resultat);
+        
+        
+        
+        
+        
+    }
+    
 }
