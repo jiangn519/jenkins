@@ -39,7 +39,7 @@ public class CalculerTest {
 
     @org.junit.Test
     public void testSomeMethod() {
-        int expresult=50,resultat ;
+        int expresult=15,resultat ;
         Calculer c=new Calculer();
         resultat=c.add(5, 10);
         assertEquals(expresult,resultat);
@@ -52,7 +52,7 @@ public class CalculerTest {
     
     @org.junit.Test
     public void testSomeMethod1() {
-        int expresult=15,resultat ;
+        int expresult=50,resultat ;
         Calculer c=new Calculer();
         resultat=c.mul(5, 10);
         assertEquals(expresult,resultat);
